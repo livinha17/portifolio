@@ -6,9 +6,12 @@
     <link rel="shortcut icon" href="assets/profile.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
     <header>
+
         <nav id="navbar">
             <div class="nav-container">
                 <div class="logo">Portfólio</div>
@@ -18,6 +21,17 @@
                     <li><a href="#projects" class="nav-link">Projetos</a></li>
                     <li><a href="#contact" class="nav-link">Contato</a></li>
                 </ul>
+                <div id="acessibilidade" class="menu-acessibilidade">
+                    <button id= "botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao">Acessibilidade</button>
+    
+                    <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">         
+                        <button id="aumentar-fonte" class="btn btn-primary fw-bold">A +</button>
+                        
+                        <button id="diminuir-fonte" class="btn btn-primary fw-bold">A -</button>
+                        
+                    </div>
+               </div>   
+            
                 <button id="theme-toggle" aria-label="Toggle dark mode">
                     <i class="fas fa-moon"></i>
                 </button>
@@ -34,9 +48,9 @@
         <section id="home" class="full-height">
             <canvas id="particles"></canvas>
             <div class="hero-content">
-                <h1>Samuel Bispo</h1>
-                <h2>Engenheiro de software</h2>
-                <p class="tagline">Professor dos DSs, com muito orgulho!</p>
+                <h1>Lívia Bueno Anicesio</h1>
+                <h2>Futura técnica de desenvolvimento de sistemas e advogada.</h2>
+                <p class="tagline">Vestibulanda de direito, focada no futuro!</p>
                 <a href="#about" class="cta-button">Saiba mais</a>
             </div>
         </section>
@@ -49,7 +63,7 @@
                         <div class="circle-frame"></div>
                     </div>
                     <div class="about-texts">
-                        <p class="bio-text">Sua bio deve vir aqui, escreva algumas palavras bonitas sobre si. O que gosta de fazer, o que gosta de comer e o que gosta de jogar/ler/assistir.</p>
+                        <p class="bio-text"> Estudo no colégio Adolpho, em Astorga, faço cursinho, focada e dedicando parte do meu dia (aproximadamente 15 horas do meu dia) estudando! Ou seja, ja tenho uma certa intimidade com os estudos. Nos meus tempos livres aproveito com meu namorado, vou em eventos da igreja, algumas vezes me chamam para pregar ( e eu amo, pois é maravilhoso levar a palavra de Deus para aqueles que são sedentos do amor de Deus!)</p>
                     </div>
                     <div class="skills-grid"></div>
                 </div>
@@ -99,5 +113,6 @@
     </footer>
 
     <script src="script.js"></script>
+
 </body>
 </html>
